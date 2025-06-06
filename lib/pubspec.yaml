@@ -1,0 +1,14 @@
+name: code_previewer_app
+description: A simple app to preview HTML/CSS/JS code using a WebView.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.2.2
+
+flutter:
+  uses-material-design: true
